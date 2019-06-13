@@ -1,0 +1,22 @@
+{
+  "name": "second-app",
+  "version": "1.0.0",
+  "description": "Online Node.js Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Crash",
+    "Tutorial",
+    "Beginners"
+  ],
+  "author": "KuKuXia",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
