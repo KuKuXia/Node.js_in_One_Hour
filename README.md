@@ -215,7 +215,18 @@ app.delete("/api/courses/:id", (req, res) => {
 });
 ```
 
+# Express
 
+ ## Introduction
+
+1. Express is a fast, unopinionated and minimalist web framework for Node.js.
+2. Express is a “server-side” or “back-end” framework.
+3. Makes building web applications with Node.js MUCH easier.
+4. Used for both server rendered apps as well as API/Micro-services.
+5. Extremely light, fast and free.
+6. Full control of request and response.
+7. By far the most popular Node framework.
+8. Great to use with client side frameworks as it’s all JavaScript.
 
 
 
