@@ -228,6 +228,33 @@ app.delete("/api/courses/:id", (req, res) => {
 7. By far the most popular Node framework.
 8. Great to use with client side frameworks as it’s all JavaScript.
 
+## Basic Route Handing
+
+1. Handing requests/routes is simple.
+2. app.get(), app.post(), app.put(), app.delete(), etc
+3. Access to params, query string, url parts, etc
+4. Express has a router so we can store routes in separte files and export.
+5. We can parse incoming data with the Body Parser.
+
+```js
+app.get('/', function(req, res){
+    // Fetch from database
+    // Load Pages
+    // Return JSON
+    // Full access to request & response
+})
+```
+
+## Express Middleware
+
+Middleware functions are functions that have access to the request and response object.
+
+
+
+
+
+
+
 
 
 
